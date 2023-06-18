@@ -1,0 +1,65 @@
+.inp_form{
+    width: 35%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    padding: 18px;
+    display: inline-block;
+    border: 1px solid #0d3263;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-size: medium;
+    position: relative;
+}
+
+.inp_form:focus{
+    box-shadow: 0 0 10px 1000px rgba(179, 191, 196, 0.699);
+    outline: none;
+}
+
+
+.inp_form_main{
+    
+    display: flex;
+    justify-content: center;
+
+
+}
+/* button{
+    width: 4%;
+    height: 3rem;
+    
+} */
+.btn{
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    top: 28px;
+    right: 425px;
+    font-size: 15px;
+    margin: 12px 20px  0px 21px ;
+    background-color: rgb(19, 87, 133);
+    border: none;
+    box-shadow: 50px;
+    border-radius: 27px;
+}
+.btn:active{
+    transform:scale(0.8);
+    box-shadow: 0 0 5px black;
+}
+.todos{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    flex-wrap: wrap;
+
+}
+.todos__single{
+    display:flex;
+    justify-content: space-between;
+    width: 29.5%;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 15px;
+    background-color: yellow;
+}
+/* .todos__single--text */

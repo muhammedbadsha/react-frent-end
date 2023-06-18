@@ -1,0 +1,29 @@
+.App {
+  text-align: left;
+  min-height: 100vh;
+  background-color: #a9a1ec;
+}
+
+
+
+.App-header {
+  background-color: #fdfdfd;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.heading{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
